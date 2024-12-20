@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "915696439148",
+    "project_id": "productivity-app-40eaf",
+    "storage_bucket": "productivity-app-40eaf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915696439148:android:ecdddaf9f6ec9642cead49",
+        "android_client_info": {
+          "package_name": "com.example.advancedproductivityapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgEQ-BG2UFjURyN2M3p9QzHrfrJ8ITb3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
