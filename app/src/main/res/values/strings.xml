@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Advanced Productivity App</string>
+    <string name="my_map_api" translatable="false">AIzaSyDTByouZwjXKu439ibCwco0FN0PFddYepQ</string>
 </resources>

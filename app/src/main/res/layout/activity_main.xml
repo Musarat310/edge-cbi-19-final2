@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="15dp"
+    android:padding="5dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -16,15 +16,15 @@
         android:id="@+id/text"
         android:text="Mobiole App Development"
         android:textSize="15sp"
-        android:padding="25dp"
+        android:padding="10dp"
         android:gravity="center"
         />
 
     <ImageView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:scaleType="fitXY"
-        android:id="@+id/image"/>
+        android:id="@+id/image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="fitXY" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,14 +47,36 @@
         android:text="Open Sensor"
         android:gravity="center"
         android:id="@+id/sensor"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Database"
+        android:id="@+id/dbase"/>
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Logout" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logout"
-        android:gravity="center"
-        android:id="@+id/out"/>
+        android:text="MAP"
+        android:id="@+id/map"/>
 
+    <Button
+        android:id="@+id/showNoteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Note" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/>
 
 
 
